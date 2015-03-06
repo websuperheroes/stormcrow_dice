@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'scd';
+	src:url('fonts/scd.eot?-x7zr3u');
+	src:url('fonts/scd.eot?#iefix-x7zr3u') format('embedded-opentype'),
+		url('fonts/scd.woff?-x7zr3u') format('woff'),
+		url('fonts/scd.ttf?-x7zr3u') format('truetype'),
+		url('fonts/scd.svg?-x7zr3u#scd') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'scd';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lock:before {
+	content: "\e600";
+}
+
+.icon-envelope:before {
+	content: "\e601";
+}
+
+.icon-dice:before {
+	content: "\e602";
+}
+
+.icon-bubbles:before {
+	content: "\e603";
+}
+
