@@ -30,14 +30,25 @@
             <span class="last-roll">6</span>
           </div>
 
-            <div id="die" class="d6">
-                <div id="spinner" class="loader" style="display: none;"></div>
-                <span id="roll_result">Go!</span>
-            </div>
+                <div id="die" class="die">
+                    <div id="spinner" class="loader" style="display: none;"></div>
+                    <span id="roll_result" class="d6-2">Go!</span>
+                </div>
+
+
+            <ul id="dice_list" class="dice-options">
+                <li id="d4">d4</li>
+                <li id="d6" class="is-active">d6</li>
+                <li id="d8">d8</li>
+                <li id="d10">d10</li>
+                <li id="d12">d12</li>
+                <li id="d20">d20</li>
+            </ul>
 
             <div class="actions">
-                <a href="roll.html" class="is-active icon-dice"><span>Roll</span></a>
-                <a href="chat.html" class="icon-bubbles"><span>Chat</span></a>
+                <a href="roll.html" class="is-active button icon-dice"><span>Roll</span></a>
+                <a href="chat.html" class="icon-bubbles button"><span>Chat</span></a>
+                <a href="players.html" class="icon-users button"><span>Players</span></a>
             </div>
         </main>
 
